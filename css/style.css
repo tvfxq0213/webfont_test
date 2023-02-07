@@ -1,0 +1,151 @@
+/* 폰트 적용 */
+
+@font-face {
+	font-family: 'GothicA1';
+	font-weight: 100;
+	src: url("../fonts/GothicA1-Thin.ttf");
+	src: local(※), url("../fonts/GothicA1-Thin.ttf") format("woff");
+	font-display:swap;
+}
+@font-face {
+	font-family: 'GothicA1';
+	font-weight: 200;
+	src: url("../fonts/GothicA1-ExtraLight.ttf");
+	src: local(※), url("../fonts/GothicA1-ExtraLight.ttf") format("woff");
+	font-display:swap;
+}
+
+@font-face {
+	font-family: 'GothicA1';
+	font-weight: 300;
+	src: url("../fonts/GothicA1-Light.ttf");
+	src: local(※), url("../fonts/GothicA1-Light.ttf") format("woff");
+	font-display:swap;
+}
+
+@font-face {
+	font-family: 'GothicA1';
+	font-weight: 400;
+	src: url("../fonts/GothicA1-Regular.ttf");
+	src: local(※), url("../fonts/GothicA1-Regular.ttf") format("woff");
+	font-display:swap;
+}
+
+@font-face {
+	font-family: 'GothicA1';
+	font-weight: 500;
+	src: url("../fonts/GothicA1-Medium.ttf");
+	src: local(※), url("../fonts/GothicA1-Medium.ttf") format("woff");
+	font-display:swap;
+}
+
+@font-face {
+	font-family: 'GothicA1';
+	font-weight: 600;
+	src: url("../fonts/GothicA1-SemiBold.ttf");
+	src: local(※), url("../fonts/GothicA1-SemiBold.ttf") format("woff");
+	font-display:swap;
+}
+
+@font-face {
+	font-family: 'GothicA1';
+	font-weight: 700;
+	src: url("../fonts/GothicA1-Bold.ttf");
+	src: local(※), url("../fonts/GothicA1-Bold.ttf") format("woff");
+	font-display:swap;
+}
+
+@font-face {
+	font-family: 'GothicA1';
+	font-weight: 800;
+	src: url("../fonts/GothicA1-ExtraBold.ttf");
+	src: local(※), url("../fonts/GothicA1-ExtraBold.ttf") format("woff");
+	font-display:swap;
+}
+
+@font-face {
+	font-family: 'GothicA1';
+	font-weight: 900;
+	src: url("../fonts/GothicA1-Black.ttf");
+	src: local(※), url("../fonts/GothicA1-Black.ttf") format("woff");
+	font-display:swap;
+}
+
+
+
+
+body{
+  font-family: 'GothicA1', sans-serif;
+}
+.container{
+  width:100%;
+  max-width:1000px;
+  padding:60px 2.4%;
+}
+.fw-100{
+  font-weight:100;
+}
+.fw-200{
+  font-weight:200;
+}
+.fw-300{
+  font-weight:300;
+}
+.fw-400{
+  font-weight:400;
+}
+.fw-500{
+  font-weight:500;
+}
+.fw-600{
+  font-weight:600;
+}
+.fw-700{
+  font-weight:700;
+}
+.fw-800{
+  font-weight:800;
+}
+.fw-900{
+  font-weight:900;
+}
+.inputwrap{
+  width:100%;
+  display:flex;
+  padding: 8px 0;
+}
+.inputwrap input[type="text"]{
+  padding:8px 16px;
+  font-size:16px;
+  width:calc(100% - 120px);
+  border:1px solid #ddd;
+  background:#fff;
+}
+.inputwrap button{
+  padding:8px 16px;
+  font-size:16px;
+  width:112px;
+  margin-left:8px;
+  border:1px solid #ddd;
+  background:#ddd;
+}
+.webfont_test{
+  margin-top:30px;
+}
+.webfont_test li{
+  margin-bottom:16px;
+}
+.webfont_test li label{
+  margin-bottom:8px;
+  display:block;
+}
+.webfont_test li .basic_txt{
+  font-size:16px;
+  
+}
+.webfont_test li .preview_txt{
+  line-height:1;
+  border:1px solid red;
+  font-size:36px;
+  margin-top:16px;
+}
